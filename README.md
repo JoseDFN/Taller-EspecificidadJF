@@ -10,6 +10,15 @@ La especificidad son las reglas que el navegador usa para determinar los estilos
 - **Selectores de clase, pseudoclases y atributos**: Valor de especificidad de **10 puntos**.
 - **Selectores de elementos y pseudoelementos**: Valor de especificidad de **1 punto**.
 
+| Selector                           | Tipo                | Especificidad |
+|------------------------------------|---------------------|----------------|
+| style="color: red;"               | Estilo en línea     | 1000           |
+| #miID                              | ID                  | 100            |
+| .miClase, :hover, [type]          | Clase/Atributo      | 10             |
+| div, p, ::before                   | Elemento            | 1              |
+| *, :not(.miClase), >              | Universal/Negado    | 0              |
+
+
 Los selectores universales (`*`), combinadores (`+`, `>`, `~`) y las pseudoclases negadas (`:not()`) **no afectan la especificidad**.
 
 El marcador `!important` sobrescribe otras reglas sin importar la especificidad.
