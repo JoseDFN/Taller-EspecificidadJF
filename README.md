@@ -25,6 +25,6 @@ El marcador `!important` sobrescribe otras reglas sin importar la especificidad.
 
 Parte 2: Ejemplos Prácticos
 
-![image](https://github.com/user-attachments/assets/e115e7f5-f2fc-4631-93cf-533ffc39e8a3)
+![image](https://github.com/user-attachments/assets/cf381259-f150-4711-a34c-07250eabc5bf)
 
 El resultado esperado de esta versión del código es el de mostrar el texto dentro de la etiqueta p en color rojo, debido a que el selector id = "parrafo" es el que tiene un mayor valor de especificidad (100 puntos).
