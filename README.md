@@ -22,3 +22,9 @@ La especificidad son las reglas que el navegador usa para determinar los estilos
 Los selectores universales (`*`), combinadores (`+`, `>`, `~`) y las pseudoclases negadas (`:not()`) **no afectan la especificidad**.
 
 El marcador `!important` sobrescribe otras reglas sin importar la especificidad.
+
+Parte 2: Ejemplos Prácticos
+
+![image](https://github.com/user-attachments/assets/cf381259-f150-4711-a34c-07250eabc5bf)
+
+El resultado esperado de esta versión del código es el de mostrar el texto dentro de la etiqueta p en color rojo, debido a que el selector id = "parrafo" es el que tiene un mayor valor de especificidad (100 puntos).
