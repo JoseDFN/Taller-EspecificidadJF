@@ -1,6 +1,6 @@
 /* Estilo por etiqueta */
 p {
-    color: blue;
+    color: blue !important;
 }
 /* Estilo por clase */
 .container p {
