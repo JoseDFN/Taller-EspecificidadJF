@@ -39,7 +39,7 @@ Ejercicio 1: Calculando la Especificidad
 
 ![image](https://github.com/user-attachments/assets/ec9dae13-e8d4-4af3-8d4d-e7f2a9e6f4fd)
 
-Pregunta: ¿Qué color tendrá el título <h1> ?
+Pregunta: ¿Qué color tendrá el título <h1>?
 
 El titulo `<h1>` tendría color rojo ya que el estilo aplicado con  mayor especificidad es el id "estiloMain" con el elemento `<h1>`, el cual tiene un valor de especificidad de 101, y se le aplica el estilo de color de letra rojo.
 
