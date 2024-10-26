@@ -23,7 +23,7 @@ Los selectores universales (`*`), combinadores (`+`, `>`, `~`) y las pseudoclase
 
 El marcador `!important` sobrescribe otras reglas sin importar la especificidad.
 
-[Descargar presentación](https://github.com/JoseDFN/Taller-EspecificidadJF/raw/refs/heads/main/Explicacion%20Especificidad%20CSS%20y%20HTML.pptx)
+> **Importante:** [Descargar presentación](https://github.com/JoseDFN/Taller-EspecificidadJF/raw/refs/heads/main/Explicacion%20Especificidad%20CSS%20y%20HTML.pptx)
 
 # **Parte 2: Ejemplos Prácticos**
 
