@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Ejemplos Especificidad</title>
 </head>
 <body>
-    
+    <div class="Container">
+       <div class="divbox">
+        <H1 id="mainStyle" class="secondaryStyle">Hola</H1>
+        </div>
+        
+        <div class="divbox">
+            <h1 style="color: green;">Hola desde abajo</h1>
+        </div>
+        <div class="divbox">
+            <p id="mainStyle" class="secondaryStyle" style="color: rgb(140, 0, 255); font-size: 35px;">Ejemplo Especificidad</p>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(197, 201, 252);
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+}
+.Container{
+    display: flex; /* Activar Flexbox */
+    flex-direction: column; /* Alinear los elementos en columna */
+    align-items: center; /* Centrar horizontalmente los hijos */
+    justify-content: center; /* Centrar verticalmente los hijos */
+}
+.divbox{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.secondaryStyle{
+    color: #5e1717;
+    font-size: 24px;
+    font-weight: bold;
+}
+#mainStyle{
+    color: blue;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+}
+body div h1.secondaryStyle#mainStyle{
+    color: rgb(58, 46, 70);
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+}
