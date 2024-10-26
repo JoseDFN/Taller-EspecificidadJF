@@ -1,5 +1,5 @@
 # Taller-EspecificidadJF
-**Parte 1: Introducción Teórica a la Especificidad**
+# **Parte 1: Introducción Teórica a la Especificidad**
 
 ¿Qué es la especificidad?
 
@@ -23,7 +23,7 @@ Los selectores universales (`*`), combinadores (`+`, `>`, `~`) y las pseudoclase
 
 El marcador `!important` sobrescribe otras reglas sin importar la especificidad.
 
-**Parte 2: Ejemplos Prácticos**
+# **Parte 2: Ejemplos Prácticos**
 
 ![image](https://github.com/user-attachments/assets/cf381259-f150-4711-a34c-07250eabc5bf)
 
@@ -33,15 +33,15 @@ El resultado esperado de esta versión del código es el de mostrar el texto den
 
 El resultado esperado en esta version del codigo es el de mostrar el texto dento de la etiqueta p en color azul, esto debido a que se le agrego el marcador !important dentro de los estilos definidos para la etiqueta en el archivo CSS (Forzando el uso de este estilo).
 
-**Parte 3: Ejercicios Prácticos**
+# **Parte 3: Ejercicios Prácticos**
 
 Ejercicio 1: Calculando la Especificidad
 
 ![image](https://github.com/user-attachments/assets/ec9dae13-e8d4-4af3-8d4d-e7f2a9e6f4fd)
 
-Pregunta: ¿Qué color tendrá el título <h1>?
+Pregunta: ¿Qué color tendrá el título `<h1>`?
 
-El titulo `<h1>` tendría color rojo ya que el estilo aplicado con  mayor especificidad es el id "estiloMain" con el elemento `<h1>`, el cual tiene un valor de especificidad de 101, y se le aplica el estilo de color de letra rojo.
+El título `<h1>` tendría color rojo, ya que el estilo aplicado con mayor especificidad es el id `estiloMain` con el elemento `<h1>`, el cual tiene un valor de especificidad de 101, y se le aplica el estilo de color de letra rojo.
 
 Ejercicio 2: Resolviendo Conflictos de Especificidad
 
