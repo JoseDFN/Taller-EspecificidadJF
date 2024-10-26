@@ -1,0 +1,12 @@
+/* Estilo por etiqueta */
+p {
+    color: blue;
+}
+/* Estilo por clase */
+.container p {
+    color: green;
+}
+/* Estilo por ID */
+#parrafo {
+    color: red;
+}
