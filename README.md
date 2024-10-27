@@ -29,11 +29,11 @@ El marcador `!important` sobrescribe otras reglas sin importar la especificidad.
 
 ![image](https://github.com/user-attachments/assets/cf381259-f150-4711-a34c-07250eabc5bf)
 
-El resultado esperado de esta versión del código es el de mostrar el texto dentro de la etiqueta p en color rojo, esto debido a que el selector id = "parrafo" es el que tiene un mayor valor de especificidad (100 puntos).
+El resultado esperado de esta versión del código es el de mostrar el texto dentro de la etiqueta `<p>` en color rojo, esto debido a que el selector `id = "parrafo"` es el que tiene un mayor valor de especificidad (100 puntos).
 
 ![image](https://github.com/user-attachments/assets/e9a5b3c4-7ba5-4b66-b5c1-a81a2cdd4651)
 
-El resultado esperado en esta version del codigo es el de mostrar el texto dento de la etiqueta p en color azul, esto debido a que se le agrego el marcador !important dentro de los estilos definidos para la etiqueta en el archivo CSS (Forzando el uso de este estilo).
+El resultado esperado en esta version del codigo es el de mostrar el texto dento de la etiqueta `<p>` en color azul, esto debido a que se le agrego el marcador `!important` dentro de los estilos definidos para la etiqueta en el archivo CSS (Forzando el uso de este estilo).
 
 # **Parte 3: Ejercicios Prácticos**
 
