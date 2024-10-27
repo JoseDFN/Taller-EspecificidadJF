@@ -37,7 +37,7 @@ El resultado esperado en esta version del codigo es el de mostrar el texto dento
 
 # **Parte 3: Ejercicios Prácticos**
 
-Ejercicio 1: Calculando la Especificidad
+### Ejercicio 1: Calculando la Especificidad
 
 ![image](https://github.com/user-attachments/assets/ec9dae13-e8d4-4af3-8d4d-e7f2a9e6f4fd)
 
@@ -45,5 +45,60 @@ Pregunta: ¿Qué color tendrá el título `<h1>`?
 
 El título `<h1>` tendría color rojo, ya que el estilo aplicado con mayor especificidad es el id `estiloMain` con el elemento `<h1>`, el cual tiene un valor de especificidad de 101, y se le aplica el estilo de color de letra rojo.
 
-Ejercicio 2: Resolviendo Conflictos de Especificidad
+### Ejercicio 2: Resolviendo Conflictos de Especificidad
 
+Modifica el siguiente código para que el párrafo tenga color amarillo, sin usar !important .
+
+```html
+<div id="box" class="content">
+    <p class="text">Texto aquí</p>
+</div>
+```
+```css
+#box p {
+  color: blue;
+}
+.content .text {
+  color: green;
+}
+```
+
+La solucion que propuse fue la de crear un selector con un mayor nivel o valor de especificidad como lo seria:
+
+```css
+body div#caja.contenido p.texto{
+    color: yellow;
+}
+```
+
+![image](https://github.com/user-attachments/assets/0042c76a-bbdd-4952-938b-24bcae4c9fdb)
+
+# **Parte 4: Desafío Final**
+
+### Desafío: Diseñando una Página Completa con Estilos Conflictivos
+
+Dales a los participantes un archivo HTML con múltiples elementos y clases, y pídeles que
+agreguen estilos CSS para lograr un diseño específico. Deberán aplicar todo lo aprendido sobre
+especificidad para resolver los conflictos y obtener el resultado correcto.
+
+```html
+<div class="header" id="top">
+  <h1>Bienvenido</h1>
+  <p id="intro">Este es el sitio web.</p>
+</div>
+<div class="content">
+  <h2>Contenido principal</h2>
+  <p class="highlight">Texto destacado</p>
+</div>
+<footer id="footer">
+  <p>Pie de página</p>
+</footer>
+```
+Desafío CSS:
+- El `<h1>` en el `.header` debe ser de color blanco.
+- El texto del `<p>` en `.content` debe ser rojo.
+- El texto del `<footer>` debe ser gris.
+
+Pistas:
+- Usar selectores combinados (clases y etiquetas).
+- Resolver conflictos de estilo con la especificidad correcta.
