@@ -126,3 +126,36 @@ Desafío CSS:
 Pistas:
 - Usar selectores combinados (clases y etiquetas).
 - Resolver conflictos de estilo con la especificidad correcta.
+
+Para poner el `<h1>` en el `.header` de color blanco use el siguiente codigo de css:
+
+```css
+body div#top.header h1{
+    color: white;
+}
+```
+
+Para poner el texto del `<p>` en `.content` en color rojo use el siguiente codigo de css:
+
+```css
+body div.content p.highlight{
+    color: red;
+}
+```
+
+Para poner el texto del `<footer>` en color gris use el siguiente codigo de css:
+
+```css
+footer#footer{
+    color: grey;
+}
+```
+
+Adicional a esto, puse el color del fondo en #caf3ff para que el texto en blanco pueda apreciarse. Esto lo hice con el siguiente codigo de css:
+
+```css
+body {
+    background-color: #caf3ff;
+}
+```
+![image](https://github.com/user-attachments/assets/a8b29204-0927-4ea9-9208-7d6847442635)
