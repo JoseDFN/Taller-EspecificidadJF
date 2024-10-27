@@ -27,6 +27,8 @@ El marcador `!important` sobrescribe otras reglas sin importar la especificidad.
 
 # **Parte 2: Ejemplos Prácticos**
 
+Demuestra cómo los diferentes selectores afectan la especificidad.
+
 ![image](https://github.com/user-attachments/assets/cf381259-f150-4711-a34c-07250eabc5bf)
 
 El resultado esperado de esta versión del código es el de mostrar el texto dentro de la etiqueta `<p>` en color rojo, esto debido a que el selector `id = "parrafo"` es el que tiene un mayor valor de especificidad (100 puntos).
@@ -87,7 +89,7 @@ Modifica el siguiente código para que el párrafo tenga color amarillo, sin usa
 }
 ```
 
-La solucion que propuse fue la de crear un selector con un mayor nivel o valor de especificidad como lo seria:
+La solucion que propuse fue la de crear un selector con un mayor nivel o valor de especificidad (`1 (Body) + 1 (div) + 100 (id) + 10 (class) + 1 (p) + 10 (class) = 123 Puntos de Especificidad`) como lo seria:
 
 ```css
 body div#caja.contenido p.texto{
@@ -151,7 +153,7 @@ footer#footer{
 }
 ```
 
-Adicional a esto, puse el color del fondo en #caf3ff para que el texto en blanco pueda apreciarse. Esto lo hice con el siguiente codigo de css:
+Adicional a esto, puse el color del fondo en `#caf3ff` para que el texto en blanco pueda apreciarse. Esto lo hice con el siguiente codigo de css:
 
 ```css
 body {
