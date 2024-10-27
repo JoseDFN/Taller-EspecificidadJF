@@ -39,6 +39,30 @@ El resultado esperado en esta version del codigo es el de mostrar el texto dento
 
 ### Ejercicio 1: Calculando la Especificidad
 
+Dado el siguiente código, pide a los participantes que calculen la especificidad y determinen qué
+estilos se aplicarán:
+
+```html
+<div id="main" class="content">
+    <h1>Título</h1>
+<p>Este es un párrafo.</p>
+</div>
+```
+```css
+/* Estilo por etiqueta */
+h1 {
+    color: blue;
+}
+/* Estilo por clase */
+.content h1 {
+    color: green;
+}
+/* Estilo por ID */
+#main h1 {
+    color: red;
+}
+```
+
 ![image](https://github.com/user-attachments/assets/ec9dae13-e8d4-4af3-8d4d-e7f2a9e6f4fd)
 
 Pregunta: ¿Qué color tendrá el título `<h1>`?
