@@ -1,0 +1,9 @@
+#caja p {
+    color: blue;
+}
+.contenido .texto {
+    color: green;
+}
+body div#caja.contenido p.texto{
+    color: yellow;
+}
