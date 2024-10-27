@@ -1,0 +1,12 @@
+body div#top.header h1{
+    color: white;
+}
+body div.content p.highlight{
+    color: red;
+}
+footer#footer{
+    color: grey;
+}
+body {
+    background-color: #caf3ff;
+}
